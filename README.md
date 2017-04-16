@@ -79,7 +79,7 @@ API docs should look like:
 
 It is helpful to standardize some markdown conventions so readers learn to recognize visual cues as they work their way through the documentation and tutorials. Following are the conventions used for the Spree documentation:
 
-####Class Names####
+#### Class Names ####
 
 When referencing the name of a class, it should be capitalized. If you are writing explanatory prose and not a section of code, the class name should be blocked out with tick (`) marks. For example:
 
@@ -91,7 +91,7 @@ An instance of a class should be lowercase, normal font:
 
     You can view all of the orders for a particular user.
 
-####Buttons, Links, Section Names, Form Elements####
+#### Buttons, Links, Section Names, Form Elements ####
 
 These should always reference the correct label and can have their names quoted. Examples:
 
@@ -100,24 +100,24 @@ These should always reference the correct label and can have their names quoted.
 * Information displayed in the "Purchase Funnel" section gives you information...
 * If you check "Receive Stock" while creating a new transfer...
 
-####States, Attributes, Methods, Events, and Parameters####
+#### States, Attributes, Methods, Events, and Parameters ####
 When referring to the state of an object - an order, for example - the state name should be lowercase and set off with tick (`) marks. For example:
 
     Orders that are in the `address` state do not have valid shipping and billing addresses assigned to them yet.
 
 This same style is used for attribute names and their settings, method names, event names, parameter names, parameter settings, and data types.
 
-####Path Names####
+#### Path Names ####
 Path names should be set off with tick (`) marks, and should include enough of the directory structure to make it clear which file is being referenced. For example:
 
     They are defined in `core/app/models/spree/app_configuration.rb`...
 
-####Adding Emphasis####
+#### Adding Emphasis ####
 Any text that needs to be emphasized should be in _italics_.
 
     Only the shipping options in the _shipping_ address are presented.
 
-####Terminal Blocks####
+#### Terminal Blocks ####
 
 You can specify terminal blocks by setting it off with \`\`\`bash.
 In addition, you can differentiate commands you are using from output
@@ -130,7 +130,7 @@ $ c
 => "Hello world"
 ```
 
-####Special Blocks####
+#### Special Blocks ####
 
 Certain blocks of text can be wrapped in sets of three characters, which will place them in divs with appropriate CSS classes. They are:
 

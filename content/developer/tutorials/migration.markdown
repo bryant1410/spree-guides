@@ -469,10 +469,10 @@ polymorphic. Given some local image file, the following will associate the image
 create all of the size formats.
 
 ```ruby
-#for image for product (all variants) represented by master variant
+# for image for product (all variants) represented by master variant
 img = Spree::Image.create(:attachment => File.open(path), :viewable => product.master)
 
-#for image for single variant
+# for image for single variant
 img = Spree::Image.create(:attachment => File.open(path), :viewable => variant)
 ```
 
